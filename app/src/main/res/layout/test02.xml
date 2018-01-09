@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/loginView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="登陆界面"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginView"
+            android:layout_alignLeft="@id/loginView"
+            android:hint="username"
+            android:layout_alignRight="@id/loginView"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_alignLeft="@id/loginView"
+            android:layout_alignRight="@id/loginView"
+            android:hint="password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/cancel_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_alignRight="@id/password"
+            android:text="取消"
+            android:textSize="25sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cancel_action"
+            android:layout_below="@id/password"
+            android:text="登陆"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

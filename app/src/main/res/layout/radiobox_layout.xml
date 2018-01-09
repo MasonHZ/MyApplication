@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/sexGroup"
+            android:layout_width="180dp"
+            android:layout_height="200dp">
+
+            <RadioButton
+                android:id="@+id/gentleman"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="gentleman"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/lady"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="lady"
+                android:textSize="20sp"/>
+
+
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/hobbyGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <RadioButton
+                android:id="@+id/novel"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="小说"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/game"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="游戏"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/study"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="学习"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/shopping"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="购物"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/plain"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="化妆"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/opera"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="肥皂剧"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
